@@ -31,4 +31,4 @@ def test_get_summary():
               f"enrolled in {student.get_num_classes()} classes: "
               f"{student.display_classes()}")
 
-    assert result == "Sela is freshman enrolled in 2 classes: art, physics"
+    assert result == "Sela is a freshman enrolled in 2 classes: art, physics"
