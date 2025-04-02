@@ -16,7 +16,7 @@ def test_add_class_empty():
 def test_get_num_classes():
     student = Student("Bob", "sophmore", ["math", "science"])
     result = student.get_num_classes()
-    assert result == 3
+    assert result == 2
 
 
 def test_get_num_clssses_empty():
